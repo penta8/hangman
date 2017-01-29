@@ -40,7 +40,6 @@ def replace(letter, indexes, letters):
             letters[index] = letter
 
 word   = randomWord(loadWords('words.txt'))
-word   = 'letter'
 result = initResult(word)
 win    = False
 
